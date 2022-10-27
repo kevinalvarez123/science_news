@@ -1,0 +1,115 @@
+h1,h2,h3,h4,h5,h6{
+    /* fuente */
+    font-family: var(--titulos);
+    text-align: center;
+}
+
+/* evitar desbordamientos */
+*{
+    box-sizing: border-box;
+
+}
+/* utilizar un selector de clase */
+.home-wrapper{
+    background-image: url('../images/fondo1.jpg');
+    background-size: cover;
+    
+
+}
+
+/* encabezado */
+header{
+    width: 100%;
+    /* posicion fija */
+    position: fixed;
+    background-color: #28ace0;
+    padding-top: 10px;
+    padding-bottom: 20px;
+
+}
+header img{
+    width: 60px;
+    margin-left: 30px;
+    
+    
+}
+header nav{
+    float: right;
+    margin-top: 5px;
+}
+
+header nav a{
+    color: #ffffff;
+    font-family: var(--parrafo);
+    text-decoration: none;
+    font-weight: bold;
+    margin-left: 2px;
+    padding: 5px 10px;
+    font-size: 18px;
+
+}
+
+header nav a:hover{
+    color: #41ff11;
+    
+}
+
+
+.container{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/* seccion home */
+/* identificador en css es el # */
+#home{
+    padding: 250px 0 260px ;
+    text-align: center;
+}
+
+#home h1{
+     color: #ffffff;
+     font-weight: 700;
+     font-size: 3.8rem;
+     margin-bottom: 35px;
+}
+
+#home p{
+    color: #ffffff;
+    font-family: var(--parrafo);
+    margin-top: 50px;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+#home a{
+    text-decoration: none;
+    color: #28ace0;
+    font-size: 1.5rem;
+}
+section{
+    padding-top: 80px;
+}
+
+#categoria .box{
+    display: inline-block;
+    width: 33%;
+    padding: 5px;
+}
+
+#categoria .box img{
+    width: 100%;
+    height: 300px;
+    
+}
+
+#categoria .box h3{
+    padding-top: 10px;
+}
+
+.box a{
+    text-decoration: none;
+    color: black;
+}
