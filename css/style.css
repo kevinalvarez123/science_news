@@ -14,7 +14,19 @@ h1,h2,h3,h4,h5,h6{
     background-image: url('../images/fondo1.jpg');
     background-size: cover;
     
+}
+.insectos-home{
+    background-image: url('../images/insectos.jpg');
+    background-size: cover;
+}
 
+.oceano-home{
+    background-image: url('../images/oceano.jpg');
+    background-size: cover;
+}
+.estrella-home{
+    background-image: url('../images/estrella.jpg');
+    background-size: cover;
 }
 
 /* encabezado */
@@ -112,4 +124,11 @@ section{
 .box a{
     text-decoration: none;
     color: black;
+}
+
+.texto{
+    
+    margin-left: 20%;
+    margin-right: 20%;
+    
 }
